@@ -1,4 +1,4 @@
-# Typing Speed Test
+# Typing Speed Test ⌨️
 
 A simple but effective Typing Speed Test app built with Python and tkinter. It measures how fast a user types a given sentence, calculating words per minute (WPM), accuracy, and time spent.
 
@@ -6,13 +6,13 @@ As a student, this was my first experience creating a GUI from scratch — it he
 
 ---
 
-## Learning Context
+## Learning Context 📚
 
 This project was created in April 2025, during my 3rd month learning Python. It represents a milestone in shifting from scripting to building interactive user interfaces. It also marks my first attempt at real-time UI updates and dynamic state control.
 
 ---
 
-## How to Run the Application
+## How to Run the Application 🛠️
 
 1. **Clone the repository from Github**:
    - Also ensure you have Python 3.x installed on your system.
@@ -28,7 +28,7 @@ This project was created in April 2025, during my 3rd month learning Python. It 
 
 ---
 
-## Technologies Used
+## Technologies Used 🧰
 
 - Python 3
 - tkinter for GUI
@@ -37,7 +37,7 @@ This project was created in April 2025, during my 3rd month learning Python. It 
 
 ---
 
-## How It Works
+## How It Works 🚀
 
 1. User selects a difficulty level (which sets sentence complexity).
 2. A random sentence is shown in the GUI.
@@ -51,7 +51,7 @@ This project was created in April 2025, during my 3rd month learning Python. It 
 
 ---
 
-## Features
+## Features ✨
 
 - Generates a random sentence from a predefined list.
 - Tracks time taken, WPM, accuracy, and characters typed.
@@ -61,7 +61,7 @@ This project was created in April 2025, during my 3rd month learning Python. It 
 
 ---
 
-## Results
+## Results 🧠
 The application displays:
 - Time taken to type the sentence.
 - Accuracy percentage.
@@ -69,7 +69,7 @@ The application displays:
 
 ---
 
-## Challenges Encountered and Solutions
+## Challenges Encountered and Solutions 🧩
 
 ### Challenge 1: Real-time Timer Without Freezing
 I initially tried to use time.sleep() to manage timing — this froze the GUI. I faced the challenge of keeping the UI responsive without threading. I solved this by scheduling non-blocking updates using after().
@@ -85,7 +85,7 @@ I ensured all state (text, timer, results) is cleared when starting a new test. 
 
 ---
 
-## What I Learned
+## What I Learned 👨‍🎓
 
 - I built comfort using tkinter widgets (Label, Entry, Button, Text, Frame).
 - I learned how to schedule GUI updates without freezing using after().
@@ -95,7 +95,7 @@ I ensured all state (text, timer, results) is cleared when starting a new test. 
 
 ---
 
-## Possible Improvements
+## Possible Improvements 🛠️
 
 - Add leaderboard with name input + top scores (WPM)
 - Highlight typing errors live with color feedback
@@ -104,7 +104,7 @@ I ensured all state (text, timer, results) is cleared when starting a new test. 
 
 ---
 
-## Conclusion
+## Conclusion 📝
 
 This was a fantastic opportunity to explore GUI programming with `tkinter` and apply fundamental programming concepts like event handling, dynamic updates, and user interaction. By building a typing speed test application, I gained hands-on experience in creating an intuitive and interactive interface while solving real-world challenges such as error handling, timer updates, and dynamic sentence selection.
 
